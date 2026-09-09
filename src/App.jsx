@@ -1,17 +1,20 @@
 import { useState } from 'react'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
-import Card from './Components/card'
 import './App.css'
+import Skills from './components/Skills'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="parent">
+    <div>
       <Navigation />
       <Hero />
-      {/* <Card/> */}
+       <Skills/>
+       <Footer/>
+    
     </div>
   )
 }
