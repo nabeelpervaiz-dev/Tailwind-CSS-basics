@@ -12,7 +12,7 @@ const hero = () => {
   gap-10 lg:gap-x-20
   px-6 sm:px-10 lg:px-16
   pt-28 lg:pt-20
- 
+  pb-10
 ">
 
   {/* Intro */}
@@ -121,7 +121,7 @@ const hero = () => {
         lg:h-[70vh]
         object-contain
       "
-      src="/images/portfolio.webp"
+      src="https://file.aiquickdraw.com/imgcompressed/img/compressed_8b7d18f6bddac16dbbf7682dfc1010c8.webp"
       alt="Person"
     />
 
